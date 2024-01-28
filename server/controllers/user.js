@@ -32,7 +32,6 @@ export const login = async (req, res, next) => {
     if (!isAuth) throw new Error('Incorrect password');
     res.json({ token: encode({ username: existingUser.username, userId: existingUser._id }) })
   } catch (err) {
-    console.log(err)
     next(err)
   }
 }
