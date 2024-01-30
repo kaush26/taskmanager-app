@@ -1,4 +1,4 @@
-import { useNavigate, useLocation, Link } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
 import { LuChevronsRight, LuListChecks, LuLogOut, LuMenu } from "react-icons/lu";
 import Paper from "./ui/paper";
 import { Separator } from "./ui/separator";
