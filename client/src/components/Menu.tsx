@@ -68,8 +68,9 @@ export default function Menu() {
               />
             ))}
             {/* <ListItem Icon={<LuPlus />} label="Add New List" showCount={false} onClick={() => console.log("CLICKED")} /> */}
-            <Button className="w-full my-4">
-              <Link to="/lists">Show all Lists</Link>
+
+            <Button className="w-full my-4" onClick={() => navigate("/lists")}>
+              Show all Lists
             </Button>
           </ListGroup>
         </div>
